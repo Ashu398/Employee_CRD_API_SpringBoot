@@ -7,11 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 
-public class AshuTutorialApplication implements CommandLineRunner {
+public class EmployeeTutorialApplication implements CommandLineRunner {
 	@Autowired
 	DB db;
 	public static void main(String[] args) {
-		SpringApplication.run(AshuTutorialApplication.class, args);}
+		SpringApplication.run(EmployeeTutorialApplication.class, args);}
 	@Override
 	public void run(String... args) throws Exception {
 
